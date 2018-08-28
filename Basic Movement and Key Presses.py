@@ -22,13 +22,13 @@ while run:
 
         #note python 0,0 = top left
         if keys[pygame.K_LEFT]:
-            x -= 1
+            x -= vel
         if keys[pygame.K_RIGHT]:
-            x += 1
+            x += vel
         if keys[pygame.K_UP]:
-            y -= 1
+            y -= vel
         if keys[pygame.K_DOWN]:
-            y += 1
+            y += vel
 
         win.fill((0,0,0))
         
