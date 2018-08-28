@@ -8,7 +8,7 @@ x = 50
 y = 50
 width = 40
 height = 60
-vel = 5
+vel = 6
 
 run = True  #GameLoop
 while run:
